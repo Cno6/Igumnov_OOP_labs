@@ -1,0 +1,15 @@
+_Bool isInArea(double x, double y) {
+	if (x * x + y * y <= 1)
+	{
+		return 1;
+	}
+	else if (x >= -1 && x < 0 && y >= -1 && y <= 1)
+	{
+		return 1;
+	}
+	else
+	{
+		return 0;
+	}
+}
+
