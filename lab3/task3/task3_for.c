@@ -2,7 +2,7 @@
 #include "../task1.h"
 
 void print(int n, int k) {
-    for (int i = 1; i <= n; ++i) {\
+    for (int i = 0; i <= n; ++i) {\
         if (!(i % k)) {
 	    continue;
 	}

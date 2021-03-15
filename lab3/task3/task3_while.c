@@ -2,7 +2,7 @@
 #include "../task1.h"
 
 void print(int n, int k) {
-    static int i = 1;
+    int i = 0;
     while (i <= n) {
         if (!(i % k)) {
 	    i++;
