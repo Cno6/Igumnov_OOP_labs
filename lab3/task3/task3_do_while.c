@@ -4,10 +4,10 @@
 void print(int n, int k) {
     int i = 0;
     do {
-        if (!(i % k)) {
-	    i++;
-	    continue;
-	}
+        if (!((i+1) % k)) {
+			i++;
+			continue;
+		}
         printf("%lf ", a(i));
         i++;
     } while (i <= n);
