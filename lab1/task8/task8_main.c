@@ -3,8 +3,7 @@
 #include "func.h"
 
 void main() {
-	const double x1 = 5.0;
-	x = x1;
+	x = 5.0;
 	f();
 	printf("f(5) = %.04lf\n", result);	
 	printf("Enter X = ");

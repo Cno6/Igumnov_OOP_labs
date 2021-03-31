@@ -2,13 +2,11 @@
 #include <stdio.h>
 #include <math.h>
 
-double sin(double a);
 void f(void);
 double x, result;
 
 void main() {
-	const double x1 = 5.0;
-	x = x1;
+	x = 5.0;
 	f();
 	printf("f(5) = %.04lf\n", result);	
 	printf("Enter X = ");

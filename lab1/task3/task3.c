@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <math.h>
 
-double sin(double a);
 double f(double x);
 
 void main() {
