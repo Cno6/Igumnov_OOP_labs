@@ -4,9 +4,7 @@
 int findFirstElement(double eps) {
     int i = 0;
     for (;; ++i) {
-	if (fabs(a(i)) <= eps) {
-	    break;
-	}
+	if (fabs(a(i)) <= eps) { break; }
     }
     return i;
 }
