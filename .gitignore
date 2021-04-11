@@ -1,2 +1,6 @@
 *.pdf
 *.docx
+*.exe
+dequeArray.cpp
+dequeTemplate.cpp
+./lab5/project2/header.h
